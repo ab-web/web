@@ -1,0 +1,174 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.loading1{
+     left: 0;
+     right: 0;
+     bottom: 0;
+     top: 0;
+     margin-top: 240px;
+     background-size: cover;
+     height: 150px;
+     width: 20%;
+     border-radius: 30px;
+	animation: animate 8s ease-in-out infinite;
+	
+}
+@keyframes animate{
+	0%,100%{
+	    background-image: url("4.jpg");
+	}
+	20%{
+		background-image: url("6.jpg");
+	}
+	40%{
+		background-image: url("7.jpg");
+	}
+	60%{
+		background-image: url("8.jpg");
+	}
+	80%{
+		background-image: url("5.jpg");
+	}
+}
+.mein{
+		display: none;
+	}	
+#top{
+	background-color:#b30000;
+	height: 40px;
+	width: 100%;
+}
+#t{
+	float: left;
+	padding:1%;
+	color: white;
+	cursor: pointer;
+}
+
+.theme2{
+       margin-left: 65%;
+}
+#theme2{
+    border: 1px solid white;
+	float: left;
+	list-style: none;
+	padding: 0.6%;
+	margin-top: 0.8%;
+	margin-left: 0.5%;
+	cursor: pointer;
+	color: white;
+}
+.theme3{
+	margin-left: 65%;
+}
+#theme3{
+	float: left;
+	color: white;
+	list-style: none;
+	margin-left: 2%;
+	margin-top: 2%; 
+	cursor: pointer;
+}
+.background1{
+	background-color: rgba(0,0,0,0.5);
+	height: 600px;
+}
+.background{
+	height: 600px;
+	animation: animate 30s ease-in-out infinite;
+	background-size: cover;
+}
+.head{
+	margin-top: 2%;
+	margin-left: 200px;
+}
+.head1{
+        
+      display: inline;
+      margin-left: 20px;
+      color: white;
+      cursor: pointer;
+      
+
+}
+.head2{
+	border: 1px solid black;
+	height: 300px;
+	width: 50%;
+	background-color:white;
+	color: black;
+	list-style: none;
+	position: absolute;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	display: none;
+}
+.contener{
+	margin-top: 200px;
+	text-align: center;
+}
+.animate__animated.animate__fadeInDown{
+     font-size: 60px;
+     font-style: italic;
+     color: white;
+
+}
+span:after{
+	content:'';
+	animation: animate2 infinite 10s;
+}
+@keyframes animate2{
+	0%,100%{
+		content: 'Welcome to AB Web';
+	}
+	50%{
+		content: 'Follow Your Dream In AB Web';
+	}
+	
+}
+
+.animate__animated.animate__bounceInRight{
+	color:red;
+	font-style:italic;
+}
+.box{
+     margin-left: 15%;
+}
+.animate__animated.animate__fadeInLeft{
+	margin-top: -8%;
+	height: 200px;
+	width: 20%;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+}
+.middel{
+	margin-top: 20%;
+	width: 100%;
+	height: 300px;
+	background-color: #e6e6e6;
+	margin-bottom: 100px;
+	text-align: center;
+
+}
+.middel1{
+	margin-top: 30px;
+	border: 1px solid #b3b3b3;
+	width: 20%;
+	height: 180px;
+	float: left;
+	margin-left: 45px;
+	cursor: pointer;
+}
+.fas{
+	margin-top: 30px;
+}
+.footer{
+	height: 80px;
+	width: 100%;
+	margin-top: 200px;
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+}
